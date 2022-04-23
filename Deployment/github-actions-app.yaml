@@ -17,7 +17,7 @@ spec:
         - command:
             - "/bin/sh"
             - "-c"
-            - "echo 'Success Message from GitHub Actions!' > /github-actions-app/hello-world"
+            - "echo 'Congratulations!!Success Message from GitHub Actions' > /github-actions-app/hello-world"
           image: busybox
           name: github-actions-app
           volumeMounts:
